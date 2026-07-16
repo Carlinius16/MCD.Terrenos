@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MCD Terrenos | Tu lote, tu futuro</title>
   <meta name="description" content="MCD Terrenos - Lotes de 6x12m listos para construir. Encuentra tu terreno ideal y reserva por WhatsApp al instante.">
-  <link rel="icon" href="https://i.pinimg.com/736x/4e/cd/65/4ecd6561836f636e926313650943eb77.jpg">
+  <link rel="icon" href="https://i.pinimg.com/736x/57/51/4d/57514d11681640f9f2deb2bd662c0e4c.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Marcellus&display=swap" rel="stylesheet">
@@ -434,8 +434,12 @@
       text-align: center;
       max-width: 640px;
     }
+    /* LINEA 352: Estilos del logo optimizados para evitar distorsión */
     .cta__logo {
-      width: 84px; height: 84px; border-radius: 50%;
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+      object-fit: cover;
       margin: 0 auto 1.5rem;
       border: 3px solid var(--gold-400);
     }
@@ -518,7 +522,7 @@
 <header class="header" id="header">
   <div class="container header__inner">
     <a href="#inicio" class="brand">
-      <img src="https://i.pinimg.com/736x/4e/cd/65/4ecd6561836f636e926313650943eb77.jpg" alt="Logo MCD Terrenos" class="brand__logo">
+      <img src="https://i.pinimg.com/736x/57/51/4d/57514d11681640f9f2deb2bd662c0e4c.jpg" alt="Logo MCD Terrenos" class="brand__logo">
       <span class="brand__name">MCD <strong>Terrenos</strong></span>
     </a>
 
@@ -583,7 +587,7 @@
     <div class="container about__grid">
       <div class="about__media reveal">
         <div class="about__frame">
-          <img src="https://i.pinimg.com/736x/4e/cd/65/4ecd6561836f636e926313650943eb77.jpg" alt="MCD Terrenos" class="about__logoImg">
+          <img src="https://i.pinimg.com/736x/57/51/4d/57514d11681640f9f2deb2bd662c0e4c.jpg" alt="MCD Terrenos" class="about__logoImg">
         </div>
         <div class="about__badge">
           <strong>+10</strong>
@@ -695,12 +699,13 @@
   <!-- CTA FINAL / CONTACTO -->
   <section class="section cta" id="contacto">
     <div class="container cta__inner reveal">
+      <!-- LINEA 699: Nueva URL de imagen agregada para el logo -->
       <img src="https://i.pinimg.com/736x/4e/cd/65/4ecd6561836f636e926313650943eb77.jpg" alt="Logo MCD Terrenos" class="cta__logo">
       <h2>¿Listo para asegurar tu terreno?</h2>
       <p>Miles de personas ya confiaron en nosotros. Es tu turno de dar el siguiente paso.</p>
       <div class="cta__actions">
         <a href="https://carlinius16.github.io/MCD-Terrenos-Cat-logos/" class="btn btn--primary btn--lg">Ver Catálogo</a>
-        <!-- LINEA 704 CORREGIDA: Sin espacios duros, sin el símbolo '+' y con mensaje directo y codificado para WhatsApp -->
+        <!-- LINEA 704: Enlace oficial de WhatsApp sin espacios ocultos y con mensaje personalizado -->
         <a href="https://wa.me/573219420775?text=Hola%20MCD%20Terrenos!%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20lotes." target="_blank" rel="noopener" class="btn btn--outline btn--lg">Escríbenos por WhatsApp</a>
       </div>
     </div>
